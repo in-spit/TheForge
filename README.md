@@ -1,7 +1,9 @@
 # TheForge
+<picture>
+  <img src="Assets/banner.png" alt="banner/hero">
+</picture>
+
 this repository is just a roadmap for my IRL workshop, if there isn' t anything here? you're early!
-
-
 ## The Forge Roadmap! 🗺️
 
 > The following content can be changed or scrapped depending on what I think is needed 
