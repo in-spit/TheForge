@@ -1,7 +1,66 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>The Forge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Forge</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <p>hi you're pretty early, check out the github repo for more info i guess? <a href="https://github.com/in-spit/TheForge">repo link yay</a></p>
+    <main>
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero__content">
+                <p class="eyebrow">A workshop in progress</p>
+                <h1 id="page-title">The Forge</h1>
+                <p class="hero__intro">This repository is just a roadmap for my IRL workshop. If there isn't anything here, you're early!</p>
+                <a class="hero__link" href="https://github.com/in-spit/TheForge">Explore the repository <span aria-hidden="true">&rarr;</span></a>
+            </div>
+            <a class="scroll-cue" href="#roadmap" aria-label="Scroll to the roadmap"><span aria-hidden="true"></span>Scroll to explore</a>
+        </section>
+
+        <section class="roadmap" id="roadmap" aria-labelledby="roadmap-title">
+            <div class="roadmap__inner">
+                <p class="eyebrow">The next chapter</p>
+                <h2 id="roadmap-title">The Forge Roadmap</h2>
+                <p class="roadmap__lead">A practical path from a room at home to a workshop built for making.</p>
+                <ol class="roadmap__list">
+                    <li>
+                        <details>
+                            <summary><span>01</span><strong>Buy a 3D printer</strong></summary>
+                            <div class="roadmap__panel">
+                                <figure class="roadmap__media">
+                                    <img src="Assets/banner.png" alt="The Forge banner for the 3D printer project">
+                                    <figcaption>First step: bring a printer into the workshop.</figcaption>
+                                </figure>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary><span>02</span><strong>Get some experience in Blender</strong></summary>
+                            <div class="roadmap__panel">
+                                <figure class="roadmap__media">
+                                    <img src="Assets/banner.png" alt="The Forge banner for the Blender project">
+                                    <figcaption>Build the skills to turn digital ideas into physical pieces.</figcaption>
+                                </figure>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary><span>03</span><strong>Set up the home workshop</strong></summary>
+                            <div class="roadmap__panel">
+                                <figure class="roadmap__media">
+                                    <img src="Assets/banner.png" alt="The Forge banner for the home workshop project">
+                                    <figcaption>Make room for the tools, materials, and projects to come.</figcaption>
+                                </figure>
+                            </div>
+                        </details>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
 </body>
+</html>
